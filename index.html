@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Snake Game</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Project -->
+  <canvas id="canvas"></canvas>
+  <button id="left" ><</button>
+  <button id="right">></button>
+  <button id="top" >^</button>
+  <button id="bottom">v</button>
+  
+  <script>
+    var x = '';
+    var res = '';
+    x = x.split(',');
+    for(let i=0;i<x.length;i+=1) {
+      res = res + 'this.'+x[i].trim()+' = '+x[i].trim()+';\n';
+    }
+    //console.log(res)
+  </script>
+  
+  <script src="howler.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

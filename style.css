@@ -1,0 +1,47 @@
+*{
+  outline: 0;
+}
+head{
+  background-color: black;
+}
+body {
+    background-color: black;
+}
+button {
+  padding: 10px;
+  font-size: 50px;
+  width: 20.63%;
+  height: 16.27%;
+  border-style: none;
+  border-radius: 10px;
+  font-size: 30px;
+}
+button:hover{
+  background-color: #AEAEAE;
+}
+canvas{
+  top: 0px;
+  left: 0px;
+  position: absolute;
+}
+#top{
+  top: 60%;
+  left: calc(50% - 20.63% / 2);
+  position: absolute;
+}
+#bottom{
+  top: 80%;
+  left: calc(50% - 20.63% / 2);
+  position: absolute;
+}
+#right{
+  top: 75%;
+  left: calc(50% + (50% - (14% + 20.63%)));
+  position: absolute;
+}
+#left{
+  top: 75%;
+  left: 14%;
+  position: absolute;
+}
+
